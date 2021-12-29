@@ -1,13 +1,13 @@
 {
   "name": "eslint-plugin-personalized-recommended",
-  "version": "1.0.1-alpha.0",
+  "version": "1.0.1-alpha.1",
   "description": "个性化定制推荐eslint",
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "npm version prerelease -preid=alpha",
-    "publish":"npm publish -tag=alpha"
+    "publish": "npm publish -tag=alpha"
   },
   "peerDependencies": {
     "eslint": ">=7.29.0"
