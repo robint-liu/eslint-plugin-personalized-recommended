@@ -6,8 +6,8 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublish": "npm version prerelease -preid=alpha",
-    "publish": "npm publish -tag=alpha"
+    "predeploy": "npm version prerelease -preid=alpha",
+    "deploy": "npm publish -tag=alpha"
   },
   "peerDependencies": {
     "eslint": ">=7.29.0"
