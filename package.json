@@ -5,10 +5,12 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm version prerelease -preid=alpha",
+    "publish":"npm publish -tag=alpha"
   },
   "peerDependencies": {
-    "eslint": ">=0.8.0"
+    "eslint": ">=7.29.0"
   },
   "repository": {
     "type": "git",
@@ -25,7 +27,7 @@
     "url": "https://github.com/robint-liu/eslint-plugin-personalized-recommended/issues"
   },
   "homepage": "https://github.com/robint-liu/eslint-plugin-personalized-recommended#readme",
-  "devDependencies": {
+  "dependencies": {
     "eslint": "^7.29.0",
     "eslint-config-next": "^11.0.0",
     "eslint-plugin-simple-import-sort": "^7.0.0",
