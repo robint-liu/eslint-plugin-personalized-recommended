@@ -6,7 +6,7 @@
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "npm version prerelease -preid=alpha",
+    "prepublish": "npm version prerelease -preid=alpha",
     "publish": "npm publish -tag=alpha"
   },
   "peerDependencies": {
