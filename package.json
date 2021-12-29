@@ -1,0 +1,34 @@
+{
+  "name": "eslint-plugin-personalized-recommended",
+  "version": "1.0.0",
+  "description": "个性化定制推荐eslint",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robint-liu/eslint-plugin-personalized-recommended.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "personalized"
+  ],
+  "author": "比诺",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robint-liu/eslint-plugin-personalized-recommended/issues"
+  },
+  "homepage": "https://github.com/robint-liu/eslint-plugin-personalized-recommended#readme",
+  "devDependencies": {
+    "eslint": "^7.29.0",
+    "eslint-config-next": "^11.0.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-vue": "^8.2.0"
+  }
+}
